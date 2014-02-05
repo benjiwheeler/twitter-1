@@ -15,7 +15,7 @@
     + (NSLineBreakMode)defaultLineBreakMode;
 
     // public initializers
-    - (id)initWithFrame:(CGRect)frame;
+    - (id)init;
 
     // accessors
     - (UITextView *)getTextView;

@@ -75,6 +75,7 @@
         _userhandleLabel = [TweetView setupLabelWithFont:[UIFont systemFontOfSize:12.0] textColor:[Color fontGray]];
         _dateLabel = [TweetView setupLabelWithFont:[UIFont systemFontOfSize:12.0] textColor:[Color fontGray]];
         [self addSubview:_profileImageView];
+        [self bringSubviewToFront:[_content getTextView]]; // NOTE: not sure why this needs to come after previous line, but if you remove it, it breaks detail view
         [self addSubview:_usernameLabel];
         [self addSubview:_userhandleLabel];
         [self addSubview:_dateLabel];

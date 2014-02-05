@@ -39,6 +39,7 @@
         _tweet = tweet;
         _heightOfFooterLine = 260;
         self.navigationItem.title = @"tweet";
+        self.view.backgroundColor = [UIColor whiteColor];
         
         _tweetView = [[TweetView alloc] initWithFrame:CGRectMake(0, 80, 320, (_heightOfFooterLine - 80))];
         [self.view addSubview:_tweetView];

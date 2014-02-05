@@ -12,7 +12,14 @@
 
     // public static methods
     + (UIFont *)defaultFont;
+<<<<<<< HEAD
     + (UIFont *)largerFont;
+=======
+    + (NSLineBreakMode)defaultLineBreakMode;
+
+    // public initializers
+    - (id)init;
+>>>>>>> updated colors and view layering for ios 7
 
     // accessors
     - (UITextView *)getTextView;

@@ -36,6 +36,7 @@
 		61C94649189A31F7003261F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61C94631189A31F7003261F9 /* UIKit.framework */; };
 		61C94651189A31F7003261F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61C9464F189A31F7003261F9 /* InfoPlist.strings */; };
 		61C94653189A31F7003261F9 /* twitterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C94652189A31F7003261F9 /* twitterTests.m */; };
+		B5B2DC8818A3F97800D9FB70 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B2DC8718A3F97800D9FB70 /* Parse.framework */; };
 		E6FE68BCB5C14D8FA5CCBD9E /* libPods-twitter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7206486C4D43DBB2F786FE /* libPods-twitter.a */; };
 /* End PBXBuildFile section */
 
@@ -98,6 +99,7 @@
 		61C94650189A31F7003261F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		61C94652189A31F7003261F9 /* twitterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = twitterTests.m; sourceTree = "<group>"; };
 		B5B2DC8518A3F03300D9FB70 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		B5B2DC8718A3F97800D9FB70 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		C62AD0FDB5DE4794B0FB75EF /* Pods-twitter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twitter.xcconfig"; path = "Pods/Pods-twitter.xcconfig"; sourceTree = "<group>"; };
 		CD7206486C4D43DBB2F786FE /* libPods-twitter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-twitter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -111,6 +113,7 @@
 				61C94630189A31F7003261F9 /* CoreGraphics.framework in Frameworks */,
 				61C94632189A31F7003261F9 /* UIKit.framework in Frameworks */,
 				61C9462E189A31F7003261F9 /* Foundation.framework in Frameworks */,
+				B5B2DC8818A3F97800D9FB70 /* Parse.framework in Frameworks */,
 				E6FE68BCB5C14D8FA5CCBD9E /* libPods-twitter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,6 +213,7 @@
 		61C9462C189A31F7003261F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B5B2DC8718A3F97800D9FB70 /* Parse.framework */,
 				B5B2DC8518A3F03300D9FB70 /* Reveal.framework */,
 				6172AFD7189BB50900BD6F8D /* QuartzCore.framework */,
 				61C9462D189A31F7003261F9 /* Foundation.framework */,
@@ -471,7 +475,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: com.parse.AdvancedPushTutorialWheeler";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development IOS Push Services: com.parse.AdvancedPushTutorialWheeler";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -515,7 +520,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: com.parse.AdvancedPushTutorialWheeler";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development IOS Push Services: com.parse.AdvancedPushTutorialWheeler";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;

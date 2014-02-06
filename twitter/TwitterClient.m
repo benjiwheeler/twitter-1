@@ -107,6 +107,8 @@ static NSString * const kAccessTokenKey = @"kAccessTokenKey";
        parameters:params
           success:success
           failure:failure];
+
+//    NSLog(@"sending timeline request to twitter with params / %@ /", params);
 }
 
 - (void)createRetweet:(NSString *)tweetId callback:(void (^)(NSDictionary *tweetWithRetweet))callback

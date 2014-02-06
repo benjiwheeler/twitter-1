@@ -38,6 +38,7 @@
         tweet.retweetedByMe = [tweet.data[@"retweeted"] boolValue];
         tweet.retweeted = tweet.data[@"retweeted_status"] != nil;
         [tweets addObject:tweet];
+//        NSLog(@"got a tweet / %@ /", tweet);
     }
     return tweets;
 }

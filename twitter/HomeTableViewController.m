@@ -114,6 +114,7 @@ static NSString * const cellIdentifier = @"TweetCell";
 willSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     Tweet *tweet = _tweets[indexPath.row];
+    
     TweetDetailViewController *tweetDetailViewController = [[TweetDetailViewController alloc] initWithTweet:tweet];
     
     [self.navigationController pushViewController:tweetDetailViewController animated:YES];
@@ -149,7 +150,12 @@ heightForRowAtIndexPath:(NSIndexPath *)indexPath
 #pragma private methods
 
 - (void)reload:(id)sender
+<<<<<<< HEAD
 {   
+=======
+{
+//    NSLog(@"attempting to reload all tweet data");
+>>>>>>> reduced logging, fooling around with layers, added Reveal
     [[TwitterClient instance] homeTimelineWithCount:50 sinceId:nil maxId:nil
                                             success:^(AFHTTPRequestOperation *operation, id response) {
                                                 

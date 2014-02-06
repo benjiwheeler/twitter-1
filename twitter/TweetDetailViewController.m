@@ -25,10 +25,11 @@
     if (self) {
         _tweet = tweet;
         self.navigationItem.title = @"tweet";
-        self.view.backgroundColor = [UIColor whiteColor];
+        self.view.backgroundColor = [UIColor blueColor];
         
         _tweetView = [[FullTweetView alloc] initWithFrame:CGRectMake(0, 0, 300, 700)];
         [self.view addSubview:_tweetView];
+        [self.view bringSubviewToFront:_tweetView];
         
         // add constraints for tweetView
         [self.view addConstraint:[NSLayoutConstraint constraintWithItem:_tweetView attribute:NSLayoutAttributeWidth

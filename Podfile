@@ -6,6 +6,7 @@ target "twitter" do
        pod 'AFNetworking', '~> 1.3'
        pod 'AFOAuth1Client'
        pod 'SVProgressHUD'
+       pod 'Masonry'
 
 end
 

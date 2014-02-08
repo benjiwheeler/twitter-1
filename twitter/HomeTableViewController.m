@@ -150,12 +150,8 @@ heightForRowAtIndexPath:(NSIndexPath *)indexPath
 #pragma private methods
 
 - (void)reload:(id)sender
-<<<<<<< HEAD
-{   
-=======
 {
 //    NSLog(@"attempting to reload all tweet data");
->>>>>>> reduced logging, fooling around with layers, added Reveal
     [[TwitterClient instance] homeTimelineWithCount:50 sinceId:nil maxId:nil
                                             success:^(AFHTTPRequestOperation *operation, id response) {
                                                 

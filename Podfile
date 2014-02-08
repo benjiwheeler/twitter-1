@@ -7,6 +7,7 @@ target "twitter" do
        pod 'AFOAuth1Client'
        pod 'SVProgressHUD'
        pod 'Masonry'
+       pod 'Facebook-iOS-SDK'
 
 end
 

@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "LoginViewController.h"
+#import <Parse/Parse.h>
 #import "HomeTableViewController.h"
 #import "Color.h"
 #import "TwitterClient.h"

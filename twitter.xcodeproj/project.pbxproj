@@ -36,7 +36,17 @@
 		61C94649189A31F7003261F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61C94631189A31F7003261F9 /* UIKit.framework */; };
 		61C94651189A31F7003261F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 61C9464F189A31F7003261F9 /* InfoPlist.strings */; };
 		61C94653189A31F7003261F9 /* twitterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C94652189A31F7003261F9 /* twitterTests.m */; };
+		B578DCD818A5F2C500A46CBE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B578DCD718A5F2C500A46CBE /* MobileCoreServices.framework */; };
+		B578DCDA18A5F2F100A46CBE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B578DCD918A5F2F100A46CBE /* Security.framework */; };
+		B578DCDC18A5F30400A46CBE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B578DCDB18A5F30400A46CBE /* SystemConfiguration.framework */; };
+		B578DCDE18A5F51600A46CBE /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B578DCDD18A5F51600A46CBE /* libsqlite3.dylib */; };
 		B5B2DC8818A3F97800D9FB70 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B2DC8718A3F97800D9FB70 /* Parse.framework */; };
+		B5BF19C418A5F04D0061C78E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5BF19C318A5F04D0061C78E /* AudioToolbox.framework */; };
+		B5BF19C618A5F0670061C78E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5BF19C518A5F0670061C78E /* CFNetwork.framework */; };
+		B5BF19C818A5F0800061C78E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5BF19C718A5F0800061C78E /* CoreLocation.framework */; };
+		B5BF19CA18A5F08C0061C78E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B5BF19C918A5F08C0061C78E /* libz.dylib */; };
+		B5BF19CC18A5F0C10061C78E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5BF19CB18A5F0C10061C78E /* StoreKit.framework */; };
+		B5BF19CE18A5F1740061C78E /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5BF19CD18A5F1730061C78E /* Social.framework */; };
 		E6FE68BCB5C14D8FA5CCBD9E /* libPods-twitter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7206486C4D43DBB2F786FE /* libPods-twitter.a */; };
 /* End PBXBuildFile section */
 
@@ -98,8 +108,18 @@
 		61C9464E189A31F7003261F9 /* twitterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "twitterTests-Info.plist"; sourceTree = "<group>"; };
 		61C94650189A31F7003261F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		61C94652189A31F7003261F9 /* twitterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = twitterTests.m; sourceTree = "<group>"; };
+		B578DCD718A5F2C500A46CBE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B578DCD918A5F2F100A46CBE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B578DCDB18A5F30400A46CBE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B578DCDD18A5F51600A46CBE /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		B5B2DC8518A3F03300D9FB70 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
 		B5B2DC8718A3F97800D9FB70 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		B5BF19C318A5F04D0061C78E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B5BF19C518A5F0670061C78E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B5BF19C718A5F0800061C78E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B5BF19C918A5F08C0061C78E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		B5BF19CB18A5F0C10061C78E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B5BF19CD18A5F1730061C78E /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		C62AD0FDB5DE4794B0FB75EF /* Pods-twitter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-twitter.xcconfig"; path = "Pods/Pods-twitter.xcconfig"; sourceTree = "<group>"; };
 		CD7206486C4D43DBB2F786FE /* libPods-twitter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-twitter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -109,6 +129,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B578DCDE18A5F51600A46CBE /* libsqlite3.dylib in Frameworks */,
+				B578DCDC18A5F30400A46CBE /* SystemConfiguration.framework in Frameworks */,
+				B578DCDA18A5F2F100A46CBE /* Security.framework in Frameworks */,
+				B578DCD818A5F2C500A46CBE /* MobileCoreServices.framework in Frameworks */,
+				B5BF19CE18A5F1740061C78E /* Social.framework in Frameworks */,
+				B5BF19CC18A5F0C10061C78E /* StoreKit.framework in Frameworks */,
+				B5BF19CA18A5F08C0061C78E /* libz.dylib in Frameworks */,
+				B5BF19C818A5F0800061C78E /* CoreLocation.framework in Frameworks */,
+				B5BF19C618A5F0670061C78E /* CFNetwork.framework in Frameworks */,
+				B5BF19C418A5F04D0061C78E /* AudioToolbox.framework in Frameworks */,
 				6172AFD8189BB50900BD6F8D /* QuartzCore.framework in Frameworks */,
 				61C94630189A31F7003261F9 /* CoreGraphics.framework in Frameworks */,
 				61C94632189A31F7003261F9 /* UIKit.framework in Frameworks */,
@@ -213,6 +243,16 @@
 		61C9462C189A31F7003261F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B578DCDD18A5F51600A46CBE /* libsqlite3.dylib */,
+				B578DCDB18A5F30400A46CBE /* SystemConfiguration.framework */,
+				B578DCD918A5F2F100A46CBE /* Security.framework */,
+				B578DCD718A5F2C500A46CBE /* MobileCoreServices.framework */,
+				B5BF19CD18A5F1730061C78E /* Social.framework */,
+				B5BF19CB18A5F0C10061C78E /* StoreKit.framework */,
+				B5BF19C918A5F08C0061C78E /* libz.dylib */,
+				B5BF19C718A5F0800061C78E /* CoreLocation.framework */,
+				B5BF19C518A5F0670061C78E /* CFNetwork.framework */,
+				B5BF19C318A5F04D0061C78E /* AudioToolbox.framework */,
 				B5B2DC8718A3F97800D9FB70 /* Parse.framework */,
 				B5B2DC8518A3F03300D9FB70 /* Reveal.framework */,
 				6172AFD7189BB50900BD6F8D /* QuartzCore.framework */,
@@ -462,7 +502,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -494,11 +534,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-framework",
-					Reveal,
-				);
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -507,7 +543,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -532,6 +568,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

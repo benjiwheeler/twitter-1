@@ -38,7 +38,7 @@
     self = [super init];
     if (self) {
         _textView = [[UITextView alloc] init];
-        
+
         _textView.font = [TweetTextView defaultFont];
         _textView.textContainerInset = UIEdgeInsetsZero;
         _textView.editable = NO;
@@ -59,7 +59,6 @@
 
 - (int)getLayoutHeightForWidth:(CGFloat)width
 {
-    
     CGSize size = [_textView sizeThatFits:CGSizeMake(width, FLT_MAX)];
     return size.height;
 }

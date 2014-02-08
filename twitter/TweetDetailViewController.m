@@ -25,6 +25,7 @@
     if (self) {
         _tweet = tweet;
         self.navigationItem.title = @"tweet";
+        self.view.backgroundColor = [UIColor whiteColor];
         
         _tweetView = [[FullTweetView alloc] initWithFrame:CGRectMake(0, 0, 300, 700)];
         [self.view addSubview:_tweetView];

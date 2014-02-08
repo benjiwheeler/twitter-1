@@ -51,6 +51,38 @@
     self = [super initWithFrame:frame];
     if (self) {
         [TweetView setupTweetContentWithView:self];
+        _hasBeenFavorited = NO;
+        _hasBeenRetweeted = NO;
+        
+        // remove all subviews from the UITableViewCell contentView
+        [[self subviews] makeObjectsPerformSelector:@selector(removeFromSuperview)];
+        
+        // add TweetTextView and order it at the back
+        _content = [[TweetTextView alloc] init];
+        [self addSubview:[_content getTextView]];
+        
+        // add profileImage & username & userhandle to contentView
+        _profileImageView = [TweetView setupImageView];
+        _usernameLabel = [TweetView setupLabelWithFont:[UIFont boldSystemFontOfSize:14.0] textColor:[Color fontBlack]];
+        _userhandleLabel = [TweetView setupLabelWithFont:[UIFont systemFontOfSize:12.0] textColor:[Color fontGray]];
+        _dateLabel = [TweetView setupLabelWithFont:[UIFont systemFontOfSize:12.0] textColor:[Color fontGray]];
+        [self addSubview:_profileImageView];
+        [self bringSubviewToFront:[_content getTextView]]; // NOTE: not sure why this needs to come after previous line, but if you remove it, it breaks detail view
+        [self addSubview:_usernameLabel];
+        [self addSubview:_userhandleLabel];
+        [self addSubview:_dateLabel];
+        
+        // add tweet action UIImageViews
+        _replyImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"reply.png"]];
+        _retweetImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"retweet.png"]];
+        _favoriteImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"favorite.png"]];
+        [self addSubview:_replyImageView];
+        [self addSubview:_retweetImageView];
+        [self addSubview:_favoriteImageView];
+        
+        // add constraints
+        [self addConstraintsToTweetTextView];
+        [self addConstraintsToFooterLine];
     }
     return self;
 }
